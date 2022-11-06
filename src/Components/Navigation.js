@@ -7,25 +7,25 @@ export default function Navigation() {
       
     
       <NavLink to="/" className="navlink" style={({ isActive }) =>
-            isActive ? { color: "#f2f5f7" } : { color: "black" }
+            isActive ? { color: "pink" } : { color: "black" }
           }>
         Home
       </NavLink>
 
       <NavLink to="/About" className="navlink" style={({ isActive }) =>
-            isActive ? { color: "#f2f5f7" } : { color: "black" }
+            isActive ? { color: "pink" } : { color: "black" }
           }>
         About
       </NavLink>
 
       <NavLink to="/Login" className="navlink" style={({ isActive }) =>
-            isActive ? { color: "#f2f5f7" } : { color: "black" }
+            isActive ? { color: "pink" } : { color: "black" }
           }>
         Login
       </NavLink>
 
       <NavLink to="/Erro" className="navlink" style={({ isActive }) =>
-            isActive ? { color: "#f2f5f7" } : { color: "black" }
+            isActive ? { color: "pink" } : { color: "black" }
           }>
         Error
       </NavLink>
